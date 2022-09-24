@@ -3,6 +3,11 @@
   --secondary-color: #9ee4ab;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --h3-color: #3c5e43;
+  --main-bg-color: #f9f7fe;
+}
+
+body {
+  background-color: var(--main-bg-color);
 }
 .container {
   font-family: "Roboto", sans-serif;
