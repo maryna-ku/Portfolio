@@ -115,6 +115,10 @@ a:hover {
   text-align: left;
 }
 
+.me {
+  max-width: 80%;
+}
+
 .bg-custom {
   background-color: var(--secondary-color) !important;
 }
@@ -142,5 +146,10 @@ a:hover {
   .navbar-nav {
     display: flex !important;
     justify-content: center;
+  }
+
+  .me {
+    display: block;
+    margin: 0 auto;
   }
 }
