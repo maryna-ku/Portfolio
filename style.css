@@ -122,6 +122,15 @@ a:hover {
 .bg-custom {
   background-color: var(--secondary-color) !important;
 }
+#gitHub {
+  margin: 0 auto;
+  width: 85%;
+  text-align: center;
+}
+.gitHub {
+  color: var(--primary-color);
+  text-decoration: none;
+}
 
 @media (max-width: 576px) {
   .mb-3 {
