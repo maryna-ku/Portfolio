@@ -122,6 +122,10 @@ a:hover {
 .bg-custom {
   background-color: var(--secondary-color) !important;
 }
+.collapse {
+  display: flex;
+  justify-content: end;
+}
 #gitHub {
   margin: 0 auto;
   width: 85%;
@@ -151,14 +155,12 @@ a:hover {
   h2 {
     font-size: 32px;
   }
-  .nav-link,
-  .navbar-nav {
-    display: flex !important;
-    justify-content: center;
-  }
 
   .me {
     display: block;
     margin: 0 auto;
+  }
+  .collapse {
+    justify-content: center;
   }
 }
